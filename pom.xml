@@ -40,5 +40,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://13.50.4.220:8081/repository/maven-releases/</url>
+    </repository>
+    </distributionManagement>
 </project>
 
